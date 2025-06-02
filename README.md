@@ -1,63 +1,53 @@
 # 📚 Sentiment Analysis with NLP: Snow White Case Study
 
-This project applies **Natural Language Processing (NLP)** techniques to perform **sentiment analysis** on the classic fairytale _Snow White_. Using tokenization, lemmatization, vectorization, and Naive Bayes classification, I build a pipeline to classify text sentiment and evaluate model performance.
+This project applies **Natural Language Processing (NLP)** techniques to analyze the sentiment of text from the classic fairytale _Snow White_. Through preprocessing, vectorization, and classification, it demonstrates how to extract emotional patterns from narrative data using a hands-on, end-to-end pipeline.
+
+[📁 View the Notebook](notebooks/NLP_Sentiment_Analysis_SnowWhite.ipynb)
 
 ---
 
-## 🔍 Project Objectives
+## 🎯 Project Highlights
 
-- Perform text preprocessing: tokenization, stopword removal, lemmatization
-- Vectorize text using TF and TF-IDF techniques
-- Build a **Naive Bayes classifier** to predict sentiment
-- Evaluate model performance using confusion matrix and accuracy
+- **Manual Annotation**: 10 narrative paragraphs were manually labeled as positive or negative to provide ground truth.
+- **End-to-End Pipeline**:
+  - Preprocessing: tokenization, stopword removal, lemmatization
+  - Feature Engineering: TF-IDF vectorization
+  - Modeling: Naive Bayes classification
+  - Visualization: word frequency and sentiment word clouds
 
 ---
 
-## 🛠️ Technologies Used
+## 🧰 Technologies Used
 
-- Python (Google Colab)
+- Python (Jupyter / Colab / VSCode)
 - NLTK, scikit-learn, pandas, NumPy
-- Jupyter Notebook (`.ipynb`) format
-- Matplotlib for visualization
+- Matplotlib & WordCloud for visualization
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-- `snow_white_sentiment_analysis.ipynb` – Main code and analysis
-- `/data/` – Source text data (`Snow White`)
-- `/output/` – Confusion matrix, accuracy score
+- `/data/` – Contains `snow_white.txt`, the raw text used for analysis
+- `/assets/` – Sentiment-based word cloud images
+- `/notebooks/` – Main analysis in `.ipynb` format
 - `README.md` – Project overview (this file)
 
 ---
 
-## 📊 Key Features
+## 🧠 Key Insights
 
-- ✅ Text preprocessing pipeline using **NLTK**
-- ✅ Feature extraction with both **TF** and **TF-IDF**
-- ✅ Classification using **Multinomial Naive Bayes**
-- ✅ Model evaluation with visualization and metrics
-
----
-
-## 🧠 Sample Results
-
-| Metric         | Value                                                           |
-| -------------- | --------------------------------------------------------------- |
-| Accuracy       | 85–95% (varied)                                                 |
-| Top features   | "poison", "queen", "happy", "dead", etc.                        |
-| Common classes | Positive / Negative labels (manually constructed or imbalanced) |
+- Words like _dwarfs_, _prince_, _love_ dominate positive sentiment
+- Negative paragraphs are driven by terms like _jealous_, _poisoned_, _wicked_
+- Simple manual labels and a small sample can still enable meaningful sentiment classification
 
 ---
 
 ## 🙋‍♂️ About Me
 
-I'm currently pursuing a Master’s in Analytics with hands-on experience in **Python NLP**, **data visualization**, and **statistical modeling**. I also have strong programming skills in **Java** and **SQL**.
+I'm a Master’s student in Analytics with a focus on real-world applications of NLP and data visualization. My academic and personal projects combine business logic with technical execution across Tableau, Looker, Python, and SQL.
 
 ---
 
 ## 📬 Contact
 
-Connect on [LinkedIn](https://www.linkedin.com/in/allen-lei-zhao) or email me at `allen.lei.zhao@gmail.com`.
-
----
+Feel free to connect on [LinkedIn](https://www.linkedin.com/in/allen-lei-zhao/) or reach out via email: `allen.lei.zhao@gmail.com`
