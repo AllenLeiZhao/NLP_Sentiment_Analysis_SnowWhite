@@ -17,6 +17,19 @@ This project applies **Natural Language Processing (NLP)** techniques to analyze
 
 ---
 
+## 🖼 Visual Examples
+
+### 🔢 Word Frequency Distribution  
+![Word Frequency](assets/word_frequency.png)
+
+### 😊 Positive Sentiment Word Cloud  
+![Positive Word Cloud](assets/wordcloud_positive.png)
+
+### 😠 Negative Sentiment Word Cloud  
+![Negative Word Cloud](assets/wordcloud_negative.png)
+
+---
+
 ## 🧰 Technologies Used
 
 - Python (Jupyter / Colab / VSCode)
