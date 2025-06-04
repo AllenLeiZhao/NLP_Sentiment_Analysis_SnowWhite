@@ -63,4 +63,7 @@ I'm a Master’s student in Analytics with a focus on real-world applications of
 
 ## 📬 Contact
 
-Feel free to connect on [LinkedIn](https://www.linkedin.com/in/allen-lei-zhao/) or reach out via email: `allen.lei.zhao@gmail.com`
+📬 Feel free to connect or reach out:  
+- 📧 Email: allen.lei.zhao@gmail.com  
+- 🔗 LinkedIn: [linkedin.com/in/allen-lei-zhao](https://www.linkedin.com/in/allen-lei-zhao/)  
+- 🌐 Portfolio: [allenleizhao.github.io](https://allenleizhao.github.io/)
